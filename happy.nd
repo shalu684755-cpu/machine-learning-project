@@ -1,0 +1,20 @@
+# My First Machine Learning Project
+
+Welcome to my very first machine learning project! This repository contains a simple Python script that trains a computer to classify different species of Iris flowers.
+
+## 🚀 Project Overview
+This project uses the famous **Iris Flower Dataset** to train a machine learning model. The model learns to look at four physical measurements of a flower (sepal length, sepal width, petal length, and petal width) and predict exactly which species of Iris it is.
+
+## 🛠️ Tools & Libraries Used
+* **Python**: The core programming language.
+* **Scikit-Learn**: The machine learning library used to load the data and train the model.
+
+## 📂 Project Structure
+* `model.py`: The main Python script containing the machine learning pipeline (loading data, training the model, and printing the accuracy).
+* `README.md`: This file, explaining what the project is about.
+
+## 📈 How It Works
+1. **Data Loading**: We load 150 examples of Iris flowers.
+2. **Data Splitting**: We split the data so 80% is used for training and 20% is saved for testing.
+3. **Model Training**: We use an algorithm called a *Random Forest Classifier* to learn the patterns.
+4. **Evaluation**: We test the model on the remaining 20% of data to see how accurate its guesses are.
